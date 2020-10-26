@@ -1,0 +1,222 @@
+body {
+    font-family: "Roboto",Georgia,Serif;
+    font-size: 100%;
+    background-color: #ffffff;
+}
+   
+h2 { 
+     font-size: 18px; 
+}
+
+h3 { 
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    background-color: #6997A7;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-size: 18px;
+}
+
+p  {
+     font-size: 16px; 
+     font-size: 1rem;
+}
+
+header {
+    background-image: url(../images/head_bg.gif);
+    background-repeat: repeat;
+}
+   
+   header h1 {
+       font-size: 48px;
+       color: white;
+       padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+nav {
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem ;
+}
+ 
+ nav a {
+    padding: 0.25rem;
+}
+nav a:link    {color: #999999;}
+nav a:visited {color:white;}
+nav a:hover   {color:red;}
+nav a:active  {color:yellow;}
+
+nav ul {
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem ;
+}
+ 
+ nav ul li {
+    font-size: 16px;
+    background-color: #789114;
+    list-style: none;
+    display: inline;
+}
+
+article{
+    background-color: white;
+}
+
+article .top{
+    width: 100%;
+    height: 24px;
+    background-image: url(../images/content_top.gif);
+}
+
+article .bottom{
+    width: 100%;
+    height: 96px;
+    padding-top: 0;
+    background-image: url(../images/content_bottom.gif);
+}
+
+article h3{
+    font-size: 24px;
+    color: white;
+}
+
+article section{
+    margin-bottom: 16px;
+    background-color: #e7f3f8;
+}
+
+#dashboard table{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+#dashboard td{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-position: center;
+    background-image: url(../images/dashboard_li.gif);
+    background-repeat: no-repeat;
+}
+
+#dashboard p{
+    font-size: 9px;
+    text-align: center;
+}
+
+#tableTemplate table, th, td{  
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+    border: 1px solid #d3e5ed;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+#tableTemplate th, td{
+    height: 2rem;
+}
+
+#tableTemplate table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+#tableTemplate #Approved{
+    background-image: url(../images/td_bg1.gif);
+}
+
+#tableTemplate #Approved2{
+    background-image: url(../images/td_bg1.gif);
+}
+
+#tableTemplate #pending{
+    background-image: url(../images/td_bg2.gif);
+}
+
+#tableTemplate .action {
+    border: none;
+}
+
+#tableTemplate .pendingSign{
+    color: rgb(255, 71, 71);
+}
+
+#formsTemplate fieldset{
+    border: none;
+}
+
+#formsTemplate label{
+        display: inline-block;
+        text-align: left;
+        width: 10rem;
+        vertical-align: top;
+}
+
+#formsTemplate textarea{
+    margin-left: 10rem;  
+    margin-right: 10rem;  
+    width: 50rem;
+    height: 5rem;
+    padding: 12px 20px;
+    resize: both;
+    border: 2px solid #cecece;
+    border-radius: 4px;
+}
+
+#formsTemplate .general{
+    background-image: url(../images/white_message.gif);
+    border: 1px solid #cecece;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#formsTemplate .error{
+    background-image: url(../images/red_message.gif);
+    border: 1px solid #cecece;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#formsTemplate .relaxing{
+    background-image: url(../images/blue_message.gif);
+    border: 1px solid #cecece;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#formsTemplate .positive{
+    background-image: url(../images/green_message.gif);
+    border: 1px solid #cecece;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#formsTemplate .warning{
+    background-image: url(../images/yellow_message.gif);
+    border: 1px solid #cecece;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    color: #999999;
+    height: 4rem;
+    padding-top: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-image: url(../images/head_bg.gif);
+}
+
+footer a:link    {color: #999999;}
+footer a:visited {color: #999999;}
+footer a:hover   {color:red;}
+footer a:active  {color:green;}
+
+footer p{
+    margin-bottom: 0.5rem;
+}

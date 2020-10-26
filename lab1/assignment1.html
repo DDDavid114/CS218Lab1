@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/assignment1.css" />    
+</head>
+
+<body>
+    <header>
+        <h1>Assign 1</h1>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Setting</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">User Information</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <div class="top"></div>
+        <section id="dashboard">
+            <h3>Dashboard</h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><a href="#"><img src="images/d1.gif" alt="User"></a><p>Users</p></td>
+                        <td><a href="#"><img src="images/d2.gif" alt="Upload"></a><p>Users</p></td>
+                        <td><a href="#"><img src="images/d3.gif" alt="Photo"></a><p>Users</p></td>
+                        <td><a href="#"><img src="images/d4.gif" alt="Config"></a><p>Users</p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="tableTemplate">
+            <h3>Table Template</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th><strong>No.</strong></th>
+                        <th><strong>Status</strong></th>
+                        <th><strong>ID#</strong><img src="images/asc.gif" alt="ascending"></th>
+                        <th><strong>Full Name</strong><img src="images/desc.gif" alt="descending"></th>
+                        <th><strong>Date</strong></th>
+                        <th><strong>Price</strong></th>
+                        <th><strong>Actions</strong></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="Approved">
+                        <td>1</td>
+                        <td>Approved</td>   
+                        <td>FB-H061</td>
+                        <td>Randy Connolly</td>
+                        <td><p>01/15/2012</p></td>
+                        <td>$88.38</td>
+                        <td>
+                            <table class="action"><tbody><tr>
+                                <td class="action"><a href="#"><img src="images/action1.gif" alt="folder"></a></td>
+                                <td class="action"><a href="#"><img src="images/action2.gif" alt="person"></a></td>
+                                <td class="action"><a href="#"><img src="images/action3.gif" alt="email"></a></td>
+                                <td class="action"><a href="#"><img src="images/action4.gif" alt="delete"></a></td>
+                        </tr></tbody></table></td>
+                    </tr>
+
+                    <tr id="pending">
+                        <td>2</td>
+                        <td class="pendingSign">
+                            Pending
+                            <img src="images/pending.gif" alt="pending">
+                        </td>
+                        <td>FB-H061</td>
+                        <td>Ricardo Hsar</td>
+                        <td><p>01/15/2012</p></td>
+                        <td>$136.00</td>
+                        <td>
+                            <table class="action"><tbody><tr>
+                                <td class="action"><a href="#"><img src="images/action1.gif" alt="folder"></a></td>
+                                <td class="action"><a href="#"><img src="images/action2.gif" alt="person"></a></td>
+                                <td class="action"><a href="#"><img src="images/action3.gif" alt="email"></a></td>
+                                <td class="action"><a href="#"><img src="images/action4.gif" alt="delete"></a></td>
+                        </tr></tbody></table></td>
+                    </tr>
+
+                    <tr id="Approved2">
+                        <td>3</td>
+                        <td>Approved</td>
+                        <td>FB-H061</td>
+                        <td>Randy Connolly</td>
+                        <td><p>01/15/2012</p></td>
+                        <td>$106.38</td>
+                        <td>
+                            <table class="action"><tbody><tr>
+                                <td class="action"><a href="#"><img src="images/action1.gif" alt="folder"></a></td>
+                                <td class="action"><a href="#"><img src="images/action2.gif" alt="person"></a></td>
+                                <td class="action"><a href="#"><img src="images/action3.gif" alt="email"></a></td>
+                                <td class="action"><a href="#"><img src="images/action4.gif" alt="delete"></a></td>
+                        </tr></tbody></table></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+        <section id="formsTemplate">
+            <h3>Forms Template</h3>
+                <form method="post" action="#"><fieldset>
+                    <div>
+                        <p id="validCheck">
+                            <label><strong>Valid Check: </strong></label>
+                            <input type="text" name="validCheck" />
+                                <img src="images/positive.gif" alt="positive">
+                                This is a positive message
+                        </p>
+                    </div>
+                    <div>
+                        <p id="returnError">
+                            <label><strong>Return Error: </strong></label>
+                            <input type="text" name="returnError" /><img src="images/negative.gif" alt="negative">This is a negative message
+                        </p>
+                    </div>
+                    <div>
+                        <p id="city">
+                            <label><strong>City: </strong></label>
+                            <select name="where">
+                                <option>Choose a city</option>
+                                <option>Calgary</option>
+                                <option>Banff</option>
+                                <option>Reddeer</option>
+                                <option>Edmonton</option>
+                            </select>
+                        </p>
+                    </div>
+                    <div>
+                        <p id="comments">
+                            <label><strong>Comments: </strong></label>
+                            <button><strong>B</strong></button>
+                            <button><em>i</em></button>
+                            <button>u</button>
+                            <button>Code</button>
+                            <button>List</button>
+                            <button>List=</button>
+                            <button>[*]</button>
+                            <button>url</button>
+                            <button>img</button>
+                        </p>
+                    </div>
+                    <div><p>
+                            <textarea></textarea>
+                        </p>
+                    </div>
+                    <div>
+                        <p class="general"><img src="images/white_ico.png" alt="general">White bar for general message.</p>
+                        <p class="error"><img src="images/red_ico.png" alt="error">This is a negative error message!</p>
+                        <p class="relaxing"><img src="images/blue_ico.png" alt="relax">Blue bar can be used for relaxing message feelings.</p>
+                        <p class="positive"><img src="images/green_ico.png" alt="positive">This is a postive message!</p>
+                        <p class="warning"><img src="images/yellow_ico.png" alt="warning">This is a warning!</p>
+                    </div>
+                </fieldset></form>
+        </section>
+
+        <div class="bottom"></div>
+
+    </article>
+
+    <footer>
+        <p id="copyright">
+            &copy; 1999 Yusheng Liu
+        </p>
+        <p>
+            <a href="#">Home</a> | 
+            <a href="#">Settings</a> | 
+            <a href="#">Products</a> |
+            <a href="#">User Information</a> | 
+            <a href="#">Help</a> 
+        </p>
+    </footer>
+</body>
+</html>
